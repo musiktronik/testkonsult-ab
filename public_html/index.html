@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="sv">
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/mycss.css" />
+    <script type="text/javascript" src="js/myscripts.js"></script>        
+  </head>
+  <body>
+    <div id="main">
+      <button id="knapp0" onclick="hello()">Hej knapp0</button>
+      <button id="knapp1">Hej med parameter</button>
+      <button id="knapp2">Loop exempel 1 - for</button>
+      <button id="knapp3">Loop exempel 2 - do</button>
+      <button id="knapp4">Sökning exempel 1</button>
+      <button id="knapp5">Sortering - bubblesort - ex 1</button>
+      <button id="knapp6">Sortering - bubblesort - ex 2</button>
+      <button id="knapp7">Array - exempel 1</button>
+      <button id="knapp8">Momsberäkning</button>
+    </div>
+    <div id="result">
+    </div>
+      <script>
+        document.getElementById("knapp1").addEventListener("click", function(){hello("Roger")}, false);
+        document.getElementById("knapp2").addEventListener("click", forExampleOne);
+        document.getElementById("knapp3").addEventListener("click", doExampleOne);
+        document.getElementById("knapp4").addEventListener("click", searchExampleOne);
+        document.getElementById("knapp5").addEventListener("click", function(){bubbleSortShow(10)}, false);
+        document.getElementById("knapp6").addEventListener("click", bubbleSort);
+        document.getElementById("knapp7").addEventListener("click", arrayExampleOne);
+        document.getElementById("knapp8").addEventListener("click", momsExampleOne);
+      </script>
+  </body>
+</html>
