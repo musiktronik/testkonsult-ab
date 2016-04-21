@@ -7,7 +7,7 @@
 
 /**
  * Funktion som skapar en hälsningsruta
- * @argument {inparameter} name name to be printed
+ * @argument {inparameter} name to be printed
  */
 function hello(name) {
   alert("Hejsan, svejsan " + name);
